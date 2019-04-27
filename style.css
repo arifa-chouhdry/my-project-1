@@ -1,0 +1,147 @@
+body {
+  height: 100vh;
+  width: 100em;
+  font-family: 'Noto Serif', serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 100%;
+  height: 0 auto;
+}
+
+nav ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  border: 2px solid pink;
+  padding: 5px;
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(160, 43, 62);
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.image:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.lipstick {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn {
+  border: 2px solid rgb(197, 51, 76);
+  margin: 5px;
+  padding: 15px 32px;
+  background-color: wheat;
+}
+
+.btn:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.pic1 {
+  border: 1px solid #f2f2f2;
+  background-color: rgb(252, 250, 250);
+}
+
+.pic1:hover {
+  background-color: gainsboro;
+}
+
+.pallet-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pallet {
+  border: 1px solid #f2f2f2;
+  background-color: rgb(252, 250, 250);
+}
+
+.pallet:hover {
+  background-color: gainsboro;
+}
+
+.button {
+  border: 2px solid rgb(201, 14, 45);
+  margin: 5px;
+  padding: 15px 32px;
+  background-color: wheat;
+  word-spacing: 2px;
+}
+
+.button:hover {
+  background-color: beige;
+  color: white;
+}
+
+.signup {
+  display: inline-block;
+}
+
+.btn2:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.list a {
+  text-decoration: none;
+  margin-left: 50px;
+  color: black;
+}
+
+.list a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.copy-rights a {
+  text-decoration: none;
+}
+
+.copy-rights a:hover {
+  background-color: bisque;
+}
+
+input[type=email] {
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.btn2 {
+  border-radius: 3px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
